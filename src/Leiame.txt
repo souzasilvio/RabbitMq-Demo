@@ -1,0 +1,9 @@
+
+https://elnatantorres.medium.com/configuring-rabbitmq-on-its-startup-with-docker-d219af4b751a
+
+Execução: docker-compose up -d
+API: http://localhost:15672/api/definitions
+
+Execute Producer para enviar mensagens
+Execute Azure Function ou Consumer para ler.
+

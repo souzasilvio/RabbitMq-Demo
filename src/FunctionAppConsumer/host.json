@@ -1,0 +1,20 @@
+{
+  "version": "2.0",
+  //"extensions": {
+  //  "rabbitMQ": {
+  //    "prefetchCount": 100,
+  //    "queueName": "hello",
+  //    "connectionString": "localhost",
+  //    "port": 10
+  //  }
+  //  },
+  
+    "logging": {
+        "applicationInsights": {
+            "samplingSettings": {
+                "isEnabled": true,
+                "excludedTypes": "Request"
+            }
+        }
+    }
+}
